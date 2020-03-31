@@ -7,18 +7,7 @@ const dist = path.resolve(__dirname, "dist");
 module.exports = {
   mode: "production",
   entry: {
-    index: "./www/js/index.js",
-  },
-  module: {
-    rules: [
-      {
-        test: /\.css$/i,
-        use: [
-          { loader: 'style-loader', options: { injectType: 'styleTag' } },
-          'css-loader',
-        ],
-      },
-    ],
+    index: "./www/js/index.js"
   },
   output: {
     path: dist,
@@ -36,6 +25,5 @@ module.exports = {
       crateDirectory: __dirname,
       extraArgs: "--out-name index"
     }),
-    
   ]
 };

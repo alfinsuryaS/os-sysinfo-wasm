@@ -1,4 +1,4 @@
-## How to install
+## OS-Sys Information
 
 ```sh
 npm install

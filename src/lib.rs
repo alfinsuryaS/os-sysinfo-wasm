@@ -24,7 +24,7 @@ pub fn start() -> Result<(), JsValue> {
 
     let app = smithy::smd!(
         <div>
-            <div class="blue">Hello from smithy</div>
+            <div class="blue">Hello from wasm</div>
         </div>
       );
 
